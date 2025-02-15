@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Resume from './Documents/Vikas Chauhan Resume IT.pdf'
+import Resume from './Documents/Vikas Chauhan Resume IT_compressed.pdf'
 import AboutUs from './Documents/about-us.jpg'
 import ToDo from './Documents/todo-logo.png'
 import GrocerryLogo from './Documents/grocerry-logo.jpg'
@@ -11,6 +11,8 @@ import MovieLogo from './Documents/Movie logo.png';
 import NewsLogo from './Documents/News_Time_new_logo.png'
 import FooterLogo from './Documents/footer-logo.png'
 import IndeedLogo from './Documents/IndeedLogo.png'
+import PosterImg from './Documents/RegisterKaroPoster_page.jpg'
+import ShoppingCart from './Documents/Cartjourney Poster.jpg'
 function App() {
   return (
     <div className="App">
@@ -271,6 +273,14 @@ function App() {
                         </div>
 
                         <h3 className="resume-title">Education</h3>
+                       
+                        <div className="resume-item">
+                            <h4>Python Full Stack + React Course</h4>
+                            <p>South Extension, New Delhi, India</p>
+                            <h5>2024</h5>
+                            <p><em><b>7 month Course </b></em></p>
+                        </div>
+
                         <div className="resume-item">
                             <h4>A.R.S.D College(I.G.N.O.U)</h4>
                             <p>New Delhi, India</p>
@@ -278,6 +288,7 @@ function App() {
                             <p><em>Masters in History with(M.A) <b>55%
                                         Aggregate</b></em></p>
                         </div>
+                       
                         <div className="resume-item">
                             <h4>A.R.S.D College(Delhi University)</h4>
                             <p>New Delhi, India</p>
@@ -412,6 +423,44 @@ function App() {
                                         Technologies used: -Html, CSS, JavaScript, Bootstrap, React.
                                     </p>
                                     <p><a href="https://newssite-vikaschauhan.netlify.app" target="_blank"><img src={Netlify} height='50px' alt="" /></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12">
+                            <div className="project">
+                                <div className="project-img text-center py-4">
+                                  <img src={PosterImg} alt="Services-3" />
+                                </div>
+                                <div className="card-body text-center">
+                                    <h5 className="card-title text-uppercase font-lato">RegisterKaro Demo Home Page</h5>
+                                    <div className="ul-project-seperator"></div>
+                                    <br className="card-text text-secondary"/>
+                                    <b>RegisterKaro</b><br />
+                                    It is the RegisterKaro Home Page.
+                                    
+                                    <p>
+                                        Technologies used: -Html, CSS, JavaScript, Bootstrap, React.
+                                    </p>
+                                    <p><a href="https://registerkarohomedemo.netlify.app/" target="_blank"><img src={Netlify} height='50px' alt="" /></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12">
+                            <div className="project">
+                                <div className="project-img text-center py-4">
+                                  <img src={ShoppingCart} alt="Services-3" />
+                                </div>
+                                <div className="card-body text-center">
+                                    <h5 className="card-title text-uppercase font-lato">Shopping Cart Demo</h5>
+                                    <div className="ul-project-seperator"></div>
+                                    <br className="card-text text-secondary"/>
+                                    <b>Shopping Cart</b><br />
+                                    It is a simple Shopping Cart Demo.
+                                    
+                                    <p>
+                                        Technologies used: -Html, CSS, JavaScript, Bootstrap, React.
+                                    </p>
+                                    <p><a href="https://cartjourney.netlify.app/" target="_blank"><img src={Netlify} height='50px' alt="" /></a></p>
                                 </div>
                             </div>
                         </div>

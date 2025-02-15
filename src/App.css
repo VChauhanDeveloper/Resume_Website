@@ -276,7 +276,7 @@ a {
   overflow: hidden;
 }
 .project .project-img > img {
-  width: 130px;
+  /* width: 130px; */
   height: 130px;
 }
 
